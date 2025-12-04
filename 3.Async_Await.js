@@ -10,5 +10,6 @@ const fun2=async()=>{
     console.log("Swish and Flick"); //Wand Movement
     const res=await fun1("123");
     console.log(res);
+    console.log("Spell Successful"); 
 };
 fun2();
